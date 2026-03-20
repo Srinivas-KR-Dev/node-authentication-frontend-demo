@@ -5,7 +5,7 @@ const AppLayout = () => {
     return (
         <main className="app-shell">
             <aside className="showcase-panel">
-                <span className="eyebrow">Recruiter Demo</span>
+                <span className="eyebrow">Demo</span>
                 <h2>Node Auth Frontend</h2>
                 <p>
                     A small React app built to demonstrate how the backend registration, login, auth context, and protected employee API work together.
