@@ -15,6 +15,13 @@ const AuthProvider = ({ children }) => {
         });
     };
 
+    const updateAccessToken = (accessToken) => {
+        setAuth((currentAuth) => ({
+            ...currentAuth,
+            accessToken
+        }));
+    };
+
     const logout = () => {
         setAuth({
             username: '',
@@ -23,7 +30,7 @@ const AuthProvider = ({ children }) => {
     };
 
     return (
-        <AuthContext.Provider value={{ auth, login, logout }}>
+        <AuthContext.Provider value={{ auth, login, updateAccessToken, logout }}>
             {children}
         </AuthContext.Provider>
     );

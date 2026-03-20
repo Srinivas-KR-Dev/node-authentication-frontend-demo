@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import api from '../api/axios.js';
 import { validateRegisterForm } from '../utils/validators.js';
+import './RegisterPage.css';
 
 const RegisterPage = () => {
     const navigate = useNavigate();

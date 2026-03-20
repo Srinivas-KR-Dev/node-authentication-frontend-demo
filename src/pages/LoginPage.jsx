@@ -3,6 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import api from '../api/axios.js';
 import { useAuth } from '../context/AuthContext.jsx';
 import { validateLoginForm } from '../utils/validators.js';
+import './LoginPage.css';
 
 const LoginPage = () => {
     const navigate = useNavigate();
