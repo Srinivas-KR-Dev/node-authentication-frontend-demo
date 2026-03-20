@@ -71,3 +71,7 @@ Example employee details shown in the UI:
 
 Srinivas KR  
 GitHub: [Srinivas-KR-Dev](https://github.com/Srinivas-KR-Dev)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
