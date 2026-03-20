@@ -13,12 +13,12 @@ This frontend showcases:
 
 ## Tech Stack
 
-- React 19
-- Vite 6
-- React Router
-- Axios
-- React Context API
-- ESLint
+![React 19](https://img.shields.io/badge/React-19-20232A?logo=react&logoColor=61DAFB)
+![Vite 6](https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=FFD62E)
+![React Router](https://img.shields.io/badge/React%20Router-7-CA4245?logo=reactrouter&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-1.8-5A29E4?logo=axios&logoColor=white)
+![React Context API](https://img.shields.io/badge/React%20Context%20API-State-20232A?logo=react&logoColor=61DAFB)
+![ESLint](https://img.shields.io/badge/ESLint-9-4B32C3?logo=eslint&logoColor=white)
 
 ## Project Flow
 
